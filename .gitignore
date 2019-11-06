@@ -1,0 +1,9 @@
+.idea
+target
+log
+logs
+*.iml
+log.*
+*thrift/src/main/java*
+/newsfeed-thrift/src/main/java/*
+*/filter/local.properties
