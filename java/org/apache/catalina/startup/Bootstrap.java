@@ -254,6 +254,8 @@ public final class Bootstrap {
      */
     public void init() throws Exception {
 
+        //why jdk has three classLoader bootstrap, extison and app classloader?
+        //https://stackoverflow.com/questions/28011224/what-is-the-reason-for-having-3-class-loaders-in-java
         initClassLoaders();
 
         Thread.currentThread().setContextClassLoader(catalinaLoader);
